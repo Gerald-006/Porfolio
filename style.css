@@ -1,0 +1,24 @@
+/* Styling the top navigation bar*/
+.topnav{
+    background-color: rgb(202, 205, 211);
+    overflow: auto;
+   
+}
+/*Styling the links to the navgation bar*/
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+   
+}  
+li a {
+    
+    float: left;
+    display: block;
+    padding: 8px;
+    
+  }
+
+
+
