@@ -1,24 +1,27 @@
 /* Styling the top navigation bar*/
-.topnav{
-    background-color: rgb(202, 205, 211);
-    overflow: auto;
-   
-}
-/*Styling the links to the navgation bar*/
-ul {
-    
+
+.nav ul{
+
     list-style-type: none;
-    margin: 0;
+    margin: 20px;
     padding: 0;
-   
-}  
-li a {
+    font-size: medium;
+    text-align: center; 
+} 
+
+.nav li {
+    display: inline-block;
     
-    float: left;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    padding: 0px;
+    width: 100px;
     display: block;
-    padding: 8px;
-    
-  }
+    font-size: 17px;
+}
+
 
 
 
