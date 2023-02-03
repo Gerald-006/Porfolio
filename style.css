@@ -1,27 +1,68 @@
 /* Styling the top navigation bar*/
+*{
+    margin: 0;
+    padding: 0;
+}
 
-.nav ul{
+
+
+.navigation-links ul{
 
     list-style-type: none;
-    margin: 20px;
     padding: 0;
     font-size: medium;
     text-align: center; 
 } 
 
-.nav li {
+.navigation-links li {
     display: inline-block;
-    
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 5px;
+
 }
-.nav a{
+.navigation-links a{
     color: black;
     text-decoration: none;
     padding: 0px;
-    width: 100px;
+    margin: 15px;
+    width: 70px;
     display: block;
     font-size: 17px;
+    
+}
+header{
+    background-color: white;
+    height: 3rem;
+}
+ .navigation-links ul >li:hover{
+   
+    background-color:rgb(220,228,249);
+    transition: all 0.3s  ease-in-out ;
+ }
+
+ .navigation-links ul li:hover >a{
+   color:rgb(36, 100, 202) ;
+   transition: all 0.3s  ease-in-out ;
+
+}
+.hero-section{
+    margin-top: 16px;
+    background-color: rgb(248,250,252);
+   
+
+}
+.profile-image{
+   width: 150px;
+   height: 150px;
+   border-radius: 50%;
+   margin-top: 16px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
 }
 
-
-
+.short-person{
+    text-align: center;
+}
 
