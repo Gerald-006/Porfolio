@@ -4,7 +4,7 @@
     padding: 0;
     font-family: 'Barlow Condensed', sans-serif;
     font-family: 'Libre Baskerville', serif;
-    font-size: 105%;
+    font-size: 100%;
 }
 
 
@@ -51,7 +51,7 @@ header{
 }
 .hero-section{
     margin-top: 16px;
-    background-color: rgb(248,250,252);
+    background-color: rgb(247,249,249)
    
 
 }
@@ -74,6 +74,23 @@ header{
 } 
 
 footer{
-    background-color: rgb(248,250,252);
+    background-color: rgb(247,249,249)
+}
+.socialmedia-icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.github-icon{
+    padding: 10px;
+}
+.linkedin-icon{
+    padding: 10px;
+}
+.twitter-icon{
+    padding: 10px;
+}
+.instagram-icon{
+    padding: 10px;
 }
 
