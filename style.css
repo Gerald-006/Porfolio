@@ -2,8 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Barlow Condensed', sans-serif;
-    font-family: 'Libre Baskerville', serif;
     font-size: 100%;
 }
 
@@ -82,15 +80,79 @@ footer{
     
 }
 .github-icon{
-    padding: 10px;
+    padding: 20px;
 }
 .linkedin-icon{
-    padding: 10px;
+    padding: 20px;
+    color:blue;
 }
 .twitter-icon{
-    padding: 10px;
+    padding: 20px;
+    
 }
 .instagram-icon{
-    padding: 10px;
+    padding: 20px;
+
+}
+.aboutme-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
 }
 
+.aboutme-button button {
+    font-size: 15px;
+    padding: 20px;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid rgb(228, 225, 225);
+    cursor: pointer;
+}
+
+.footer-link ul{
+    list-style-type: none;
+    padding-left: opx;
+    font-size: medium;
+    
+
+}
+
+.footer-link li{
+    padding: 10px;
+
+}
+
+.footer-link a{
+    color: #64748b;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.extras-link ul{
+    list-style-type: none;
+    padding-left: 20px;
+    font-size: medium;
+
+   
+
+}
+
+.extras-link li{
+    padding: 10px;
+
+}
+
+.extras-link a{
+    color: #64748b;
+    text-decoration: none;
+    font-size: 17px;
+}
+footer{
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    
+
+}
